@@ -9,12 +9,12 @@ export default function Navbar() {
             <h1><img src={eclipse}/> <span>DigitalWaves</span></h1>
             <nav>
                 <ul>
-                    <li>Acceuil</li>
-                    <li>Notre valeur</li>
-                    <li>Objectifs</li>
-                    <li>Pourquoi DigitalWaves ?</li>
-                    <li>Notre travaille</li>
-                    <li>Contact</li>
+                    <li><a href="#acceuil">Acceuil</a></li>
+                    <li><a href="#notrevaleur">Notre valeur</a></li>
+                    <li><a href="#objectifs">Objectifs</a></li>
+                    <li><a href="#whydigitalwaves">Pourquoi DigitalWaves ?</a></li>
+                    <li><a href="#">Notre travaille</a></li>
+                    <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
             <div className="call"><p><img src={call}/></p> <p>Appelez-nous (+212)654175928</p></div>

@@ -3,6 +3,7 @@ import Navbar from "./Navbar"
 import "../style/Page1.css"
 import "../style/Page2.css"
 import "../style/Page3.css"
+import "../style/Page4.css"
 import setting from "../icons/Setting.png"
 import google from "../images/google.png"
 import slack from "../images/slack.png"
@@ -11,14 +12,14 @@ import postman from "../images/postman.png"
 import design from "../images/design.png"
 import marketing from "../images/marketing.png"
 import developpement from "../images/developpement.png"
-
+import eclipse2 from "../icons/eclipse2.png"
 
 export default function Landing() {
     return (
         <div>
             <Navbar/>
-            <div className="Page1">
-                <div className="page">
+            <div style={{scrollBehavior:"smooth"}} className="Page1">
+                <div id="acceuil" className="page">
                     <h1>Boostez votre entreprise au plus haut niveau.</h1>
                     <p>
                     Une agence de marketing numérique au Maroc spécialisée dans la communication et le marketing numériques via Internet, qui utilise la technologie pour améliorer les performances des entreprises.
@@ -47,10 +48,9 @@ export default function Landing() {
             </div>
 
             <div className="Page2">
-                <p hidden>h</p>
                 <div className="hello">
                     <h6>OK</h6>
-                    <h2>Notre valeur</h2>
+                    <h2 id="notrevaleur">Notre valeur</h2>
                     <h1>Nous apportons des idées de métiers en ligne</h1>
                     <div className="metier">
                         <section>
@@ -81,8 +81,8 @@ export default function Landing() {
                 </div>
             </div>
 
-            <div className="Page3">
-                <div className="objective1">
+            <div id="objectifs" className="Page3">
+                <div  className="objective1">
                     <div>
                         <p>Objective</p>
                         <h1>Spécifique, Mesurable, Atteignable, Réaliste</h1>
@@ -135,6 +135,16 @@ export default function Landing() {
                         </div>
                     </div>
                 </div>
+            </div>
+
+            <div id="whydigitalwaves" className="Page4">
+                <div className="why"> 
+                    <p><img src={eclipse2}/> <span>Pourquoi DigitalWaves ?</span></p>
+                    <h1>Nous apportons des idées de métiers en ligne</h1>
+                    <p>Nous voulons donner de la valeur… à nos valeurs. Loin d’être des paroles en l’air, elles correspondent à un vrai engagement envers vous, mais aussi entre nous.Partant du principe qu’il faut toujours être exemplaire dans ce que l’on prône, nous travaillons de la même manière en interne qu’avec nos clients.Nous voulons donner de la valeur…<br/>
+                    à nos valeurs. Loin d’être des paroles en l’air, elles correspondent à un vrai engagement envers vous, mais aussi entre nous.Partant du principe qu’il faut toujours être exemplaire dans ce que l’on prône, nous travaillons de la même manière en interne qu’avec nos clients.</p>
+                </div>
+                <div className="groupe2"></div>
             </div>
         </div>
     )
