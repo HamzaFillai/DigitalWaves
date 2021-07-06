@@ -13,7 +13,7 @@ export default function Navbar() {
                     <li><a href="#notrevaleur">Notre valeur</a></li>
                     <li><a href="#objectifs">Objectifs</a></li>
                     <li><a href="#whydigitalwaves">Pourquoi DigitalWaves ?</a></li>
-                    <li><a href="#">Notre travaille</a></li>
+                    <li><a href="#travail">Notre travaille</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
             </nav>

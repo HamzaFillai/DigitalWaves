@@ -1,0 +1,117 @@
+.Page5
+{
+    padding-top: 80px;
+    padding-left: 167px;
+    margin-bottom: 92px;
+}
+
+.Page5 p
+{
+    position: static;
+    width: 144px;
+    height: 21px;
+    left: 0px;
+    top: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 113.34%;
+    color: #48B774;
+}
+
+.Page5 h1
+{
+    position: static;
+    width: 650px;
+    height: 126px;
+    left: 0px;
+    top: 36px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 46.25px;
+    line-height: 113.34%;
+    /* or 52px */
+    margin-top: -10px;
+    color: #2E2E2E;
+}
+
+.Page5 > .travail div > .short
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15.3493px;
+    width: 546.12px;
+    height: 531.79px;
+    
+    
+    background: #FFFFFF;
+    border: 0.940595px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 20.8929px;
+
+    margin-bottom: 24px;
+}
+
+.Page5 > .travail
+{
+    display: flex;
+}
+
+.Page5 > .travail div > .long
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15.3493px;
+
+    width: 546px;
+    height: 626px;
+
+    background: #FFFFFF;
+    border: 0.940595px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 20.8929px;
+    margin-bottom: 24px;
+}
+
+.Page5 > .travail div > .short p , .Page5 > .travail div > .long p
+{
+    
+    width: 340.84px;
+    height: 62.47px;
+  
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17.4424px;
+    line-height: 21px;
+    
+    color: #2D2D2C;
+}
+
+.Page5 > .travail div > .short button , .Page5 > .travail div > .long button
+{
+    position: static;
+    background-color: white;
+    border : 0;
+    height: 17px;
+    left: 0px;
+    top: 2.41px;
+    
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15.8725px;
+    line-height: 17px;
+    /* identical to box height */
+    cursor: pointer;
+    color: #48B774;
+}
+
+.Page5 > .travail div > .short button i , .Page5 > .travail div > .long button i
+{
+    margin-left: 20px;
+}

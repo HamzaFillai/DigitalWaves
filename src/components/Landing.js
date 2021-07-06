@@ -4,6 +4,7 @@ import "../style/Page1.css"
 import "../style/Page2.css"
 import "../style/Page3.css"
 import "../style/Page4.css"
+import "../style/Page5.css"
 import setting from "../icons/Setting.png"
 import google from "../images/google.png"
 import slack from "../images/slack.png"
@@ -13,6 +14,10 @@ import design from "../images/design.png"
 import marketing from "../images/marketing.png"
 import developpement from "../images/developpement.png"
 import eclipse2 from "../icons/eclipse2.png"
+import groupe11 from "../images/groupe11.png"
+import groupe12 from "../images/groupe12.png"
+import groupe13 from "../images/groupe13.png"
+import groupe14 from "../images/groupe14.png"
 
 export default function Landing() {
     return (
@@ -75,7 +80,7 @@ export default function Landing() {
                             </p>
                             <h3>Graphic design</h3>
                             <p>When users interact with your product, it should tell them an amazing story, driving your business forward. I can help you create that story.</p>
-                            <button>Voir plus <i onMouseOver="this.style.color='red'" class="fas fa-arrow-right"></i> </button>
+                            <button>Voir plus <i class="fas fa-arrow-right"></i> </button>
                         </section>
                     </div>
                 </div>
@@ -145,6 +150,37 @@ export default function Landing() {
                     à nos valeurs. Loin d’être des paroles en l’air, elles correspondent à un vrai engagement envers vous, mais aussi entre nous.Partant du principe qu’il faut toujours être exemplaire dans ce que l’on prône, nous travaillons de la même manière en interne qu’avec nos clients.</p>
                 </div>
                 <div className="groupe2"></div>
+            </div>
+
+            <div id="travail" className="Page5">
+                <p>Notre travail</p>
+                <h1>Les études de cas sont menées par notre équipe</h1>
+                <div class="travail">
+                    <div>
+                        <div className="short">
+                            <img src={groupe11}/>
+                            <p>A tutorial about creating golden sphere using Figma</p>
+                            <button>Voir plus <i class="fas fa-arrow-right"></i> </button>
+                        </div>
+                        <div className="long">
+                            <img src={groupe12}/>
+                            <p>A tutorial about creating golden sphere using Figma</p>
+                            <button>Voir plus <i class="fas fa-arrow-right"></i> </button>
+                        </div>
+                    </div>
+                    <div style={{marginLeft:"24.88px"}}>
+                        <div className="long">
+                            <img src={groupe13}/>
+                            <p>A tutorial about creating golden sphere using Figma</p>
+                            <button>Voir plus <i class="fas fa-arrow-right"></i> </button>
+                        </div>
+                        <div className="short">
+                            <img src={groupe14}/>
+                            <p>A tutorial about creating golden sphere using Figma</p>
+                            <button>Voir plus <i class="fas fa-arrow-right"></i> </button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     )
