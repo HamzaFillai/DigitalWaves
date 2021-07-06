@@ -60,7 +60,8 @@ body
     color: #FFFFFF;
     border : 0;
     background: #48B774;
-    border-radius: 64.3107px
+    border-radius: 64.3107px;
+    cursor: pointer;
 }
 
 .Page1 >.page > .start p img

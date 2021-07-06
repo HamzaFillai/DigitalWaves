@@ -110,9 +110,7 @@
     width: 148.44px;
     height: 50.41px;
     border: 0;
-    background: #48B774;
-    border-radius: 39.4888px;
-    color: white;
+   background-color: white;
 }
 
 .Page2 > .hello > .metier section button i
@@ -130,4 +128,18 @@
 .Page2 > .hello > .metier section :hover
 {
     box-shadow: none;
+}
+
+.Page2 > .hello > .metier section p img:hover
+{
+    box-shadow: none;
+    border-radius: 0;
+}
+
+.Page2 > .hello > .metier section button:hover
+{
+    box-shadow: none;
+    background: #48B774;
+    border-radius: 39.4888px;
+    color: white;
 }

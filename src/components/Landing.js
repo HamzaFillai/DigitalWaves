@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from "./Navbar"
 import "../style/Page1.css"
 import "../style/Page2.css"
+import "../style/Page3.css"
 import setting from "../icons/Setting.png"
 import google from "../images/google.png"
 import slack from "../images/slack.png"
@@ -76,6 +77,62 @@ export default function Landing() {
                             <p>When users interact with your product, it should tell them an amazing story, driving your business forward. I can help you create that story.</p>
                             <button>Voir plus <i onMouseOver="this.style.color='red'" class="fas fa-arrow-right"></i> </button>
                         </section>
+                    </div>
+                </div>
+            </div>
+
+            <div className="Page3">
+                <div className="objective1">
+                    <div>
+                        <p>Objective</p>
+                        <h1>Spécifique, Mesurable, Atteignable, Réaliste</h1>
+                        <div className="firstpart">
+                            <div className="number">
+                                <p>02</p>
+                            </div>
+                            <div className="text">
+                                <h3>Création</h3>
+                                <p>Plateformes professionnelles (sites de communication - site web..), le bon contenu pour chaque objectif</p>
+                            </div>
+                        </div>
+                        <div className="firstpart">
+                            <div className="number">
+                                <p>04</p>
+                            </div>
+                            <div className="text">
+                                <h3>Analyse</h3>
+                                <p>Analyse des résultats et des données</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div style={{marginTop:"50px"}}>
+                        <div className="firstpart">
+                            <div className="number">
+                                <p>01</p>
+                            </div>
+                            <div className="text">
+                                <h3>Stratégie</h3>
+                                <p>Utiliser les ressources de l'entreprise pour atteindre les objectifs soulignés</p>
+                            </div>
+                        </div>
+                        <div className="firstpart">
+                            <div className="number">
+                                <p>03</p>
+                            </div>
+                            <div className="text">
+                                <h3>Management</h3>
+                                <p>Exécution de toutes les parties qui se chevauchent selon la stratégie  spécifiée</p>
+                            </div>
+                        </div>
+                        <div className="firstpart">
+                            <div className="number">
+                                <p>05</p>
+                            </div>
+                            <div className="text">
+                                <h3>Optimisation</h3>
+                                <p>Améliorer et ajuster la stratégie en fonction des résultats</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
