@@ -5,6 +5,7 @@ import "../style/Page2.css"
 import "../style/Page3.css"
 import "../style/Page4.css"
 import "../style/Page5.css"
+import "../style/Page6.css"
 import setting from "../icons/Setting.png"
 import google from "../images/google.png"
 import slack from "../images/slack.png"
@@ -181,6 +182,11 @@ export default function Landing() {
                         </div>
                     </div>
                 </div>
+            </div>
+
+            <div className="Page6">
+                <p>Témoignage</p>
+                <h1>Qu'est-ce que nos clients disent de nous</h1>
             </div>
         </div>
     )

@@ -1,0 +1,43 @@
+.Page6
+{
+    background-color: white;
+    padding-top: 216px;
+    padding-left: 172px;
+}
+
+.Page6 p
+{
+    width: 139px;
+    height: 21px;
+    left: 172px;
+    top: 4980px;
+    
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 113.34%;
+    /* or 25px */
+    
+    
+    color: #48B774;
+}
+
+.Page6 h1
+{
+    position: static;
+    width: 450px;
+    height: 126px;
+    left: 0px;
+    top: 0px;
+    
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 46.25px;
+    line-height: 113.34%;
+    /* or 52px */
+    
+    
+    color: #2E2E2E;
+}
