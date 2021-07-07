@@ -75,6 +75,27 @@
     color: #2E2E2E;
 }
 
+.Page9 footer > nav > ul >li a {
+    position: relative;
+  }
+
+.Page9 footer > nav > ul >li ::after { 
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    height: 3px;
+    width: 0px;
+    background: #5FBD85;
+    border-radius: 24px;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+}
+  
+.Page9 footer > nav > ul >li :hover::after { 
+    width: 100%; 
+    left: 0;
+}
+
 .Page9 footer p i
 {
     color: #5FBD85;

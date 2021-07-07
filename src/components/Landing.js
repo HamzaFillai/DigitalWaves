@@ -60,9 +60,9 @@ export default function Landing() {
             </div>
 
             <div className="Page2">
-                <div className="hello">
+                <div id="notrevaleur" className="hello">
                     <h6>OK</h6>
-                    <h2 id="notrevaleur">Notre valeur</h2>
+                    <h2 >Notre valeur</h2>
                     <h1>Nous apportons des idées de métiers en ligne</h1>
                     <div className="metier">
                         <section>
