@@ -8,6 +8,7 @@ import "../style/Page5.css"
 import "../style/Page6.css"
 import "../style/Page7.css"
 import "../style/Page8.css"
+import "../style/Page9.css"
 import setting from "../icons/Setting.png"
 import google from "../images/google.png"
 import slack from "../images/slack.png"
@@ -23,6 +24,7 @@ import groupe13 from "../images/groupe13.png"
 import groupe14 from "../images/groupe14.png"
 import personne from "../images/personne.png"
 import message from "../icons/message.png"
+import bigdigital from "../icons/bigdigital.png"
 
 export default function Landing() {
     return (
@@ -286,6 +288,29 @@ export default function Landing() {
                         <input type="submit" value="Submit"/>
                     </p>
                 </form>
+            </div>
+
+            <div className="Page9">
+                <footer>
+                    <img src={bigdigital}/>
+                    <h1>DigitalWave</h1>
+                    <p>
+                        Une agence de marketing numérique au Maroc spécialisée dans la communication et<br/> le marketing numériques via Internet, qui utilise la technologie pour améliorer les<br/> performances des entreprises.
+                    </p>
+                    <nav>
+                        <ul>
+                            <li><a href="#acceuil">Acceuil</a></li>
+                            <li><a href="#notrevaleur">Notre valeur</a></li>
+                            <li><a href="#objectifs">Objectifs</a></li>
+                            <li><a href="#whydigitalwaves">Pourquoi DigitalWaves ?</a></li>
+                            <li><a href="#travail">Notre travaille</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                    <p>
+                        <i class="fab fa-facebook-f"></i> <i class="fab fa-twitter"></i> <i class="fab fa-instagram"></i>
+                    </p>
+                </footer>
             </div>
         </div>
     )

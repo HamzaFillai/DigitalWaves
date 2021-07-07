@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+.Page9
+{
+    padding-top: 42px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.Page9 footer img
+{
+    width: 73px;
+    height: 73px;
+}
+
+.Page9 footer h1
+{ 
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28.1818px;
+    line-height: 42px;
+    /* or 150% */
+    
+    letter-spacing: -0.065em;
+    
+    /* Dark */
+    margin-top: -1px;
+    color: #0A142F;
+}
+
+.Page9 footer p
+{
+    position: static;
+    height: 66px;
+    left: 0%;
+    right: 0%;
+    top: calc(50% - 66px/2 + 74.25px);
+    
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.231818px;
+    
+    color: #6F7070;
+    
+    mix-blend-mode: normal;
+}
+
+.Page9 footer > nav > ul
+{
+    display: flex;
+    margin-left: 394px;
+    margin-top: 38px;
+}
+
+.Page9 footer  > nav > ul >li 
+{
+    position: static;
+    margin-right: 29px;
+    list-style: none;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13.3815px;
+    line-height: 20px;
+}
+
+.Page9 footer > nav > ul >li a
+{
+    text-decoration: none;
+    color: #2E2E2E;
+}
+
+.Page9 footer p i
+{
+    color: #5FBD85;
+    margin-left: 40px;
+    font-size: 25px;
+    margin-top: 50px;
+}
