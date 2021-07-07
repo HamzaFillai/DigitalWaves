@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.Page7
+{
+    padding-top: 82px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.Page7 h2
+{  
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 113.34%;
+    /* or 25px */
+    
+    
+    color: #48B774;
+}
+
+.Page7 h1
+{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 51.3893px;
+    line-height: 113.34%;
+    /* or 58px */
+    color: #2E2E2E;
+}
+
+.Page7 p
+{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17.2105px;
+    line-height: 162.34%;
+    /* or 28px */
+    
+    text-align: center;
+    
+    color: #6F7070;
+}
+
+.Page7 > .subscribe
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 4px;
+    width: 683px;
+    height: 81.03px;
+    margin-left: 388px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.03);
+    box-sizing: border-box;
+    border-radius: 55.25px;
+    margin-top: 80px;
+}
+
+.Page7 > .subscribe p input
+{
+    width: 234px;
+    height: 18px;
+    border: 0;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16.05px;
+    line-height: 24px;
+    
+    align-items: center;
+    
+    color: #6A696B;
+}
+
+.Page7 > .subscribe p 
+{
+    margin-left: 34px;
+}
+
+.Page7 > .subscribe p img
+{
+    margin-left: 5px;
+    margin-bottom: -10px;
+}
+
+.Page7 > .subscribe p input
+{
+    margin-left: 27px;
+    padding: 10px;
+}
+
+.Page7 > .subscribe button
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 13.5207px;
+    color: white;
+    border: 0;
+    width: 169.01px;
+    height: 68.29px;
+    left: 488px;
+    top: 6.37px;
+    cursor: pointer;
+    background: #48B774;
+    box-shadow: 0px 1.35207px 4.0562px rgba(0, 0, 0, 0.05), 0px 27.0413px 54.0827px rgba(92, 103, 153, 0.2);
+    border-radius: 40.562px;
+}

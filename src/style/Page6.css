@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
 .Page6
 {
     background-color: white;
     padding-top: 216px;
     padding-left: 172px;
+    padding-bottom: 150px;
 }
 
 .Page6 p
@@ -36,8 +39,112 @@
     font-weight: bold;
     font-size: 46.25px;
     line-height: 113.34%;
-    /* or 52px */
-    
     
     color: #2E2E2E;
+
+    margin-bottom: 45px;
+}
+
+.Page6 div
+{
+    display: flex;
+}
+
+.Page6 div > .clients
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20.3945px;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 28px;
+    transition: 1s;
+}
+
+.Page6 div  :hover
+{
+    background: #FFFFFF;
+    box-shadow: 16px 70px 72px 22.8999px rgba(0, 0, 0, 0.04);
+}
+
+.Page6 div > .clients :hover
+{
+    box-shadow: none;
+}
+
+.Page6 div > .clients i
+{
+    position: static;
+    left: 43.15%;
+    right: 13.7%;
+    top: 100%;
+    bottom: -100%;
+    font-size: 30px;
+    color: #48B774;
+}
+
+.Page6 div > .clients p
+{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16.6997px;
+    line-height: 25px;
+    width: 400px;
+    color: #5E5E5E;
+    margin-bottom: 106px;
+}
+
+.Page6 div > .clients > .personne img
+{
+    position: static;
+    width: 60px;
+    height: 60px;
+}
+
+.Page6 div > .clients .personne
+{
+    display: flex;
+}
+
+.Page6 div > .clients > .personne p
+{
+    width: 75.87px;
+    height: 24.08px;
+    
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17.088px;
+    line-height: 138%;
+    /* or 24px */
+    
+    margin-left: 13px;
+    color: #494949;
+
+    margin-top: 10px;
+}
+
+.Page6 div > .clients > .personne p span
+{
+    width: 69.86px;
+    height: 10.25px;
+    
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9.47597px;
+    line-height: 14px;
+    
+    color: #9F9DAF;
+}
+
+.Page6 div > .clients p i 
+{
+    color: #FFC954;
+    border-radius: 0.18155px;
+    margin-left: 5px;
+    font-size: 20px;
+    
 }

@@ -6,6 +6,7 @@ import "../style/Page3.css"
 import "../style/Page4.css"
 import "../style/Page5.css"
 import "../style/Page6.css"
+import "../style/Page7.css"
 import setting from "../icons/Setting.png"
 import google from "../images/google.png"
 import slack from "../images/slack.png"
@@ -19,6 +20,8 @@ import groupe11 from "../images/groupe11.png"
 import groupe12 from "../images/groupe12.png"
 import groupe13 from "../images/groupe13.png"
 import groupe14 from "../images/groupe14.png"
+import personne from "../images/personne.png"
+import message from "../icons/message.png"
 
 export default function Landing() {
     return (
@@ -187,6 +190,60 @@ export default function Landing() {
             <div className="Page6">
                 <p>Témoignage</p>
                 <h1>Qu'est-ce que nos clients disent de nous</h1>
+                <div>
+                    <div className="clients">
+                        <i class="fas fa-quote-left"></i>
+                        <p>Livraison ultra rapide, moins de 5min après la commande.<br/>
+                        Meilleurs prix de tout le marché, continuez comme ça vous êtes les meilleurs.</p>
+                        <div className="personne">
+                            <img src={personne}/>
+                            <p>Mallau**<br/>
+                                <span>May 20th 2020</span>
+                            </p>
+                        </div>
+                        <p style={{marginTop : "-60px"}}>
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+                        </p>
+                    </div>
+                    <div className="clients">
+                        <i class="fas fa-quote-left"></i>
+                        <p>Livraison ultra rapide, moins de 5min après la commande.<br/>
+                        Meilleurs prix de tout le marché, continuez comme ça vous êtes les meilleurs.</p>
+                        <div className="personne">
+                            <img src={personne}/>
+                            <p>Mallau**<br/>
+                                <span>May 20th 2020</span>
+                            </p>
+                        </div>
+                        <p style={{marginTop : "-60px"}}>
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+                        </p>
+                    </div>
+                    <div className="clients">
+                        <i class="fas fa-quote-left"></i>
+                        <p>Livraison ultra rapide, moins de 5min après la commande.<br/>
+                        Meilleurs prix de tout le marché, continuez comme ça vous êtes les meilleurs.</p>
+                        <div className="personne">
+                            <img src={personne}/>
+                            <p>Mallau**<br/>
+                                <span>May 20th 2020</span>
+                            </p>
+                        </div>
+                        <p style={{marginTop : "-60px"}}>
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div className="Page7">
+                <h2>Notre abonnement</h2>
+                <h1>Prêt à développer votre entreprise <br/> rendez-le spécial ?</h1>
+                <p>nous vous recommandons de vous abonner à notre newsletter, Merci de déposez <br/> votre email ci-dessous pour recevoir les dernières nouvelles à notre sujet</p>
+                <div className="subscribe">
+                    <p><img src={message}/> <input type="text" placeholder="Entrez votre adresse email"/></p>
+                    <button>Subscribe</button>
+                </div>
             </div>
         </div>
     )
