@@ -62,18 +62,25 @@
 
 .Page7 > .subscribe p input
 {
-    width: 234px;
+    width: 264px;
     height: 18px;
+
     border: 0;
+
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16.05px;
     line-height: 24px;
     
-    align-items: center;
-    
     color: #6A696B;
+
+    margin-left: 27px;
+    padding: 10px;
+}
+
+.Page7 > .subscribe p .no-outline:focus {
+    outline: none;
 }
 
 .Page7 > .subscribe p 
@@ -85,12 +92,6 @@
 {
     margin-left: 5px;
     margin-bottom: -10px;
-}
-
-.Page7 > .subscribe p input
-{
-    margin-left: 27px;
-    padding: 10px;
 }
 
 .Page7 > .subscribe button

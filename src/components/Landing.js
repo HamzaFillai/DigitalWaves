@@ -7,6 +7,7 @@ import "../style/Page4.css"
 import "../style/Page5.css"
 import "../style/Page6.css"
 import "../style/Page7.css"
+import "../style/Page8.css"
 import setting from "../icons/Setting.png"
 import google from "../images/google.png"
 import slack from "../images/slack.png"
@@ -241,9 +242,50 @@ export default function Landing() {
                 <h1>Prêt à développer votre entreprise <br/> rendez-le spécial ?</h1>
                 <p>nous vous recommandons de vous abonner à notre newsletter, Merci de déposez <br/> votre email ci-dessous pour recevoir les dernières nouvelles à notre sujet</p>
                 <div className="subscribe">
-                    <p><img src={message}/> <input type="text" placeholder="Entrez votre adresse email"/></p>
+                    <p><img src={message}/> <input type="text" className="no-outline" placeholder="Entrez votre adresse email"/></p>
                     <button>Subscribe</button>
                 </div>
+            </div>
+
+            <div id="contact" className="Page8">
+                <h1>Contactez-nous</h1>
+                <p>Merci de déposez votre email ci-dessous pour recevoir les dernières nouvelles à notre sujet</p>
+                <p className="required">Fields marked with an asterisk (*) are required.</p>
+                <form>
+                    <div className="form">
+                        <p>
+                            <span>First name *</span><br/>
+                            <input type="text" required/>
+                        </p>
+                        <p>
+                            <span>Last name *</span><br/>
+                            <input type="text" required/>
+                        </p>
+                    </div>
+                    <div className="form">
+                        <p>
+                            <span>Email *</span><br/>
+                            <input type="email" required/>
+                        </p>
+                        <p>
+                            <span>Phone number </span><br/>
+                            <input type="text"/>
+                        </p>
+                    </div>
+                    <div className="form2">
+                        <p>
+                            <span>Nom d'entreprise</span><br/>
+                            <input type="text" placeholder="Optionel"/>
+                        </p>
+                        <p style={{marginTop:"89px"}}>
+                            <span>Message</span><br/>
+                            <textarea placeholder="Text"/>
+                        </p>
+                    </div>
+                    <p className="submit">
+                        <input type="submit" value="Submit"/>
+                    </p>
+                </form>
             </div>
         </div>
     )

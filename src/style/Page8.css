@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+
+.Page8
+{
+    padding-top: 131px;
+    background-color: white;
+    padding-left: 150px;
+    padding-bottom: 150px;
+}
+
+.Page8 h1
+{
+    width: 1139.47px;
+    height: 43.64px;
+    
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38.7905px;
+    line-height: 44px;
+    
+    color: #2E2E2E;
+}
+
+.Page8 p
+{
+    width: 1139.47px;
+    height: 24.24px;
+    left: 0px;
+    top: 63.03px;
+    
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16.9709px;
+    line-height: 24px;
+    /* identical to box height, or 143% */
+    
+    
+    color: #2E2E2E;
+}
+
+.Page8 > .required
+{
+    position: static;
+    width: 1139.47px;
+    height: 24.24px;
+    left: 0px;
+    top: 106.67px;
+    margin-bottom: -30px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16.9709px;
+    line-height: 24px;
+    /* identical to box height, or 143% */
+    
+    
+    color: #2E2E2E;
+}
+
+.Page8 form > .form
+{
+    display: flex;
+    margin-top: 40px;
+}
+
+.Page8 form> .form2 p
+{
+   margin-top: 65px;
+}
+
+.Page8 form> .form p span , .Page8 form> .form2 p span
+{
+    position: static;
+    width: 555.19px;
+    height: 24.24px;
+    left: 0px;
+    top: 0px;
+    
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16.9709px;
+    line-height: 24px;
+    color: #2E2E2E;
+}
+
+.Page8 form > .form p input
+{
+    position: static;
+    width: 552.77px;
+    height: 46.06px;
+    left: 1.21px;
+    top: 33.94px;
+    margin-top: 10px;
+    /* Base / White */
+    font-size: 16.9709px;
+    background: #FFFFFF;
+    /* Base / Gray 2 */
+    
+    border: 1.2122px solid #CCCCCC;
+    box-sizing: border-box;
+    border-radius: 9.69763px;
+}
+
+.Page8 form > .form2 p input
+{
+
+    width: 1237px;
+    height: 46.06px;;
+    margin-top: 19px;
+    /* Base / White */
+    
+    background: #FFFFFF;
+    /* Base / Gray 2 */
+    
+    border: 1.2122px solid #CCCCCC;
+    box-sizing: border-box;
+    border-radius: 9.69763px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16.9709px;
+    line-height: 24px;
+}
+
+.Page8 form > .form2 p textarea
+{
+    position: static;
+    width: 1237px;
+    height: 84.85px;
+    left: 1.82px;
+    top: 492.62px;
+    margin-top: 19px;
+    /* Base / White */
+    
+    background: #FFFFFF;
+    /* Base / Gray 2 */
+    
+    border: 1.2122px solid #CCCCCC;
+    box-sizing: border-box;
+    border-radius: 9.69763px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16.9709px;
+    line-height: 24px;
+    /* identical to box height, or 143% */
+    
+    margin-bottom: 100px;
+}
+
+.Page8 form > .submit input
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10.9098px 18.1831px;
+    
+    position: static;
+    width: 131px;
+    height: 55px;
+    left: 0px;
+    top: 596.87px;
+    background: #48B774;
+    border-radius: 48.4882px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.8819px;
+    line-height: 21px;
+    border: 0;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.Page8 form > .submit
+{
+    margin-top: 120px;
+}

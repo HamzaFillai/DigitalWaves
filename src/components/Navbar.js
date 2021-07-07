@@ -14,7 +14,7 @@ export default function Navbar() {
                     <li><a href="#objectifs">Objectifs</a></li>
                     <li><a href="#whydigitalwaves">Pourquoi DigitalWaves ?</a></li>
                     <li><a href="#travail">Notre travaille</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
             <div className="call"><p><img src={call}/></p> <p>Appelez-nous (+212)654175928</p></div>
