@@ -299,7 +299,10 @@ export default function Landing() {
                     </p>
                     <nav>
                         <ul>
-                            <li><a href="#acceuil">Acceuil</a></li>
+                            <li>
+                                <a href="#acceuil">Acceuil</a>
+                                <br/>
+                                <div className="border"></div></li>
                             <li><a href="#notrevaleur">Notre valeur</a></li>
                             <li><a href="#objectifs">Objectifs</a></li>
                             <li><a href="#whydigitalwaves">Pourquoi DigitalWaves ?</a></li>
