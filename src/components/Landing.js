@@ -94,7 +94,7 @@ export default function Landing() {
                     </div>
                 </div>
             </div>
-
+ {*/} 
             <div id="objectifs" className="Page3">
                 <div  className="objective1">
                     <div>
@@ -150,7 +150,7 @@ export default function Landing() {
                     </div>
                 </div>
             </div>
- {*/} 
+
             <div id="whydigitalwaves" className="Page4">
                 <div className="why"> 
                     <p><img src={eclipse2}/> <span>Pourquoi DigitalWaves ?</span></p>

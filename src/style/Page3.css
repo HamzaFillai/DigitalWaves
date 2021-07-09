@@ -177,16 +177,12 @@
     .Page3 > .objective1 div h1
     {
         font-size: 35px;
-        width:300px;
+        width:320px;
     }
 
     .Page3 > .objective1 div > .firstpart 
     {
         margin-left: -10px;
     }
-
-    .Page3
-    {
-        margin: 0;
-    }
+    
 }
