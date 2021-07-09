@@ -253,11 +253,19 @@ body
 {
     .Page1 > .page h1
     {
-        width: 200px;
+        width: 300px;
+        font-size: 30px;
     }
 
     .Page1 > .page p
     {
-        width: 200px;
+        width: 300px;
+        font-size: 13px;
+    }
+
+    .Page1 >.page > .start 
+    {
+        width: 5px;
+        margin-left: 10px;
     }
 }
