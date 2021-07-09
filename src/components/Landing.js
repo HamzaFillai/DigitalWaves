@@ -30,6 +30,7 @@ export default function Landing() {
 
     return (
         <div>
+            {/*}
             <Navbar/>
             <div className="Page1">
                 <div id="acceuil" className="page">
@@ -159,7 +160,7 @@ export default function Landing() {
                 </div>
                 <div className="groupe2"></div>
             </div>
-
+{*/}
             <div id="travail" className="Page5">
                 <p>Notre travail</p>
                 <h1>Les études de cas sont menées par notre équipe</h1>
@@ -190,7 +191,7 @@ export default function Landing() {
                     </div>
                 </div>
             </div>
-
+    
             <div className="Page6">
                 <p>Témoignage</p>
                 <h1>Qu'est-ce que nos clients disent de nous</h1>
