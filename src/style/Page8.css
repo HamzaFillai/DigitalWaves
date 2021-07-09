@@ -6,11 +6,11 @@
     background-color: white;
     padding-left: 150px;
     padding-bottom: 150px;
+    padding-right: 100px;
 }
 
 .Page8 h1
 {
-    width: 1139.47px;
     height: 43.64px;
     
     font-family: 'Poppins', sans-serif;
@@ -24,7 +24,7 @@
 
 .Page8 p
 {
-    width: 1139.47px;
+    width: 100%;
     height: 24.24px;
     left: 0px;
     top: 63.03px;
@@ -43,7 +43,7 @@
 .Page8 > .required
 {
     position: static;
-    width: 1139.47px;
+    width: 100%;
     height: 24.24px;
     left: 0px;
     top: 106.67px;
@@ -59,10 +59,16 @@
     color: #2E2E2E;
 }
 
+.Page8 form
+{
+    margin-top: 40px;
+}
+
 .Page8 form > .form
 {
     display: flex;
-    margin-top: 40px;
+    justify-content: space-between;
+   
 }
 
 .Page8 form> .form2 p
@@ -89,7 +95,7 @@
 .Page8 form > .form p input
 {
     position: static;
-    width: 552.77px;
+    width: 95%;
     height: 46.06px;
     left: 1.21px;
     top: 33.94px;
@@ -107,7 +113,7 @@
 .Page8 form > .form2 p input
 {
 
-    width: 1237px;
+    width: 97.5%;
     height: 46.06px;;
     margin-top: 19px;
     /* Base / White */
@@ -129,7 +135,7 @@
 .Page8 form > .form2 p textarea
 {
     position: static;
-    width: 1237px;
+    width: 97.5%;
     height: 84.85px;
     left: 1.82px;
     top: 492.62px;
@@ -182,4 +188,36 @@
 .Page8 form > .submit
 {
     margin-top: 120px;
+}
+
+@media screen and (max-width : 1040px)
+{
+    .Page8 form > .form
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Page8 > .required
+    {
+         margin-top: 30px;
+    }
+}
+
+@media screen and (max-width : 850px)
+{
+   .Page8
+   {
+       padding-left: 50px;
+       padding-right: 0;
+   }
+}
+
+@media screen and (max-width : 560px)
+{
+    .Page8 > .required
+    {
+        margin-top: 60px;
+        margin-bottom: 20px;
+    }
 }

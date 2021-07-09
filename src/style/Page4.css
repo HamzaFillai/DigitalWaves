@@ -57,3 +57,100 @@
     left: 698px;
     top: 2620.27px;
 }
+
+@media screen and (max-width : 1385px)
+{
+    .Page4
+    {
+        padding-left: 50px;
+    }
+
+    .Page4 > .groupe2
+    {
+        left: 608px;
+    }
+}
+
+@media screen and (max-width : 1290px)
+{
+    .Page4 > .groupe2
+    {
+        width: 689.06px;
+        height: 609.63px;
+        left: 558px;
+        top: 2620.27px;
+    }
+}
+
+@media screen and (max-width : 1240px)
+{
+    .Page4 > .groupe2
+    {
+        background-image: url("../images/woman.png");
+        width: 660.06px;
+        height: 600.63px;
+        left: 558px;
+        top: 2620.27px;
+    }
+}
+
+@media screen and (max-width : 1160px)
+{
+    .Page4 > .groupe2
+    {
+        width: 660.06px;
+        height: 600.63px;
+        left: 558px;
+        top: 3820.27px;
+    }
+}
+
+@media screen and (max-width : 1080px)
+{
+    .Page4 > .groupe2
+    {
+        width: 689.06px;
+        height: 600.63px;
+        left: 508px;
+        top: 3820.27px;
+    }
+}
+
+@media screen and (max-width : 1027px)
+{
+    .Page4 > .groupe2
+    {
+        display: none;
+    }
+
+    .Page4
+    {
+        padding-left: 143px;
+    }
+}
+
+@media screen and (max-width : 720px)
+{
+    .Page4 
+    {
+        padding-left: 50px;
+    }
+
+    .Page4 > .why h1 , .Page4 > .why p
+    {
+        width: 500px;
+    }
+
+    .Page4 > .why p
+    {
+        margin-top: 70px;
+    }
+}
+
+@media screen and (max-width : 565px)
+{
+    .Page4 > .why p
+    {
+        width: 450px;
+    }
+}

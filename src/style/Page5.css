@@ -60,6 +60,11 @@
     display: flex;
 }
 
+.mod
+{
+    margin-left: 24px;
+}
+
 .Page5 > .travail div > .long
 {
     display: flex;
@@ -114,4 +119,108 @@
 .Page5 > .travail div > .short button i , .Page5 > .travail div > .long button i
 {
     margin-left: 20px;
+}
+
+@media screen and (max-width : 1400px)
+{
+    .Page5
+    {
+        padding-left: 90px;
+    }
+}
+
+@media screen and (max-width : 1300px)
+{
+    .Page5
+    {
+        padding-left: 50px;
+    }
+}
+
+@media screen and (max-width : 1200px)
+{
+    .Page5 >.travail
+    {
+        margin-left: -30px;
+    }
+}
+
+@media screen and (max-width : 1160px)
+{
+    .Page5 > .travail div > .short , .Page5 > .travail div > .long
+    {
+        width: 500px;
+    }
+
+    .Page5 > .travail div > .short img, .Page5 > .travail div > .long img
+    {
+        width: 470px;
+    }
+}
+
+@media screen and (max-width : 1060px)
+{
+    .Page5 > .travail div > .short , .Page5 > .travail div > .long
+    {
+        width: 450px;
+    }
+
+    .Page5 > .travail div > .short img, .Page5 > .travail div > .long img
+    {
+        width: 420px;
+    }
+}
+
+@media screen and (max-width : 960px)
+{
+    .Page5 > .travail div > .short , .Page5 > .travail div > .long
+    {
+        width: 400px;
+    }
+
+    .Page5 > .travail div > .short img, .Page5 > .travail div > .long img
+    {
+        width: 370px;
+    }
+}
+
+@media screen and (max-width : 860px)
+{
+    .Page5 > .travail div > .short , .Page5 > .travail div > .long
+    {
+        width: 100%;
+        height: 686px;
+    }
+
+    .Page5 > .travail div > .short img, .Page5 > .travail div > .long img
+    {
+        width:100%;
+        height: 526px;
+    }
+
+    .Page5 > .travail
+    {
+        display: block;
+    }
+
+    .mod
+    {
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width : 685px)
+{
+    .Page5 h1
+    {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width : 530px)
+{
+    .Page5 h1
+    {
+        width: 430px;
+    }
 }

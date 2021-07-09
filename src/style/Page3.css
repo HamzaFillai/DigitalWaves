@@ -17,7 +17,7 @@
 .Page3 > .objective1 div p
 {
     position: static;
-    width: 123px;
+    width: 100px;
     height: 22px;
     
     font-family: 'Source Sans Pro', sans-serif;
@@ -34,7 +34,7 @@
 .Page3 > .objective1 div h1
 {
     position: static;
-    width: 518px;
+    width: 500px;
     height: 150px;
     left: 0px;
     top: 36.81px;
@@ -94,10 +94,15 @@
     color: #2E2E2E;
 }
 
+.Page3 > .objective1 > .number135
+{
+    margin-top: 50px;
+}
+
 .Page3 > .objective1 div > .firstpart > .text p
 {
     position: static;
-    width: 367px;
+    width: 360px;
     height: 35px;
     left: 0px;
     top: 34.27px;
@@ -109,4 +114,40 @@
     line-height: 113.34%;
     margin-top: -10px;
     color: #808181;
+}
+
+@media screen and (max-width : 1010px)
+{
+    .Page3
+    {
+        padding-left: 50px;
+    }
+
+    .Page3 > .objective1
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Page3 > .objective1 > .number135
+    {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width : 567px)
+{
+    
+}
+
+@media screen and (max-width : 567px)
+{
+
+    .Page3
+    {
+        padding: 0;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-left: 30px;
+    }
 }

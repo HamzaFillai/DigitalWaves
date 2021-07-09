@@ -50,16 +50,16 @@
     mix-blend-mode: normal;
 }
 
+
 .Page9 footer > nav > ul
 {
     display: flex;
-    margin-left: 394px;
+    justify-content: center;
     margin-top: 38px;
 }
 
 .Page9 footer  > nav > ul >li 
 {
-    position: static;
     margin-right: 29px;
     list-style: none;
     font-family: Poppins;
@@ -92,4 +92,18 @@
     margin-left: 40px;
     font-size: 25px;
     margin-top: 50px;
+}
+
+@media screen and (max-width : 700px) {
+    .Page9 footer > nav > ul
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        margin-top: 70px;
+        height: 20.1px;
+        left: 0px;
+        top: 254.5px;
+        padding: 0px;
+    }
 }

@@ -118,3 +118,68 @@ body
     margin-top: 20px;
     width: 167px;
 }
+
+@media screen and (max-width : 1536px)
+{
+    .Page1 > .images
+    {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width : 1440px)
+{
+    .Page1 > .images
+    {
+        margin-left: 700px;
+    }
+}
+
+@media screen and (max-width : 1320px)
+{
+    .Page1 > .images
+    {
+        margin-left: 610px;
+    }
+}
+
+@media screen and (max-width : 1230px)
+{
+    .Page1 > .images
+    {
+        display: none;
+    }
+
+    .social
+    {
+        margin-left: 0;
+    }
+}
+@media screen and (max-width : 770px)
+{
+    .social p img
+    {
+        width: 107px;
+    }
+}
+
+@media screen and (max-width : 670px)
+{
+    .Page1 > .page h1
+    {
+        width: 500px;
+        margin-left: -10px;
+    }
+
+    .Page1 >.page > p
+    {
+        margin-top: 70px;
+        width: 420px;
+        margin-left: -10px;
+    }
+
+    .Page1 >.page > .start
+    {
+        margin-top: 570px;
+    }
+}

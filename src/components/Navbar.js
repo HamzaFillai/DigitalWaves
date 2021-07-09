@@ -8,6 +8,10 @@ export default function Navbar() {
         <div className="navbar">
             <h1><img src={eclipse}/> <span>DigitalWaves</span></h1>
             <nav>
+                <input type="checkbox" id="check" />
+                <label for="check" class="checkbtn">
+                    <i class="fas fa-bars"></i>
+                </label>
                 <ul>
                     <li>
                         <a href="#acceuil">Acceuil</a>

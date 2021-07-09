@@ -57,9 +57,10 @@
     align-items: flex-start;
     padding: 20.3945px;
     cursor: pointer;
-    margin-right: 10px;
+    margin-right: 15px;
     border-radius: 28px;
     transition: 1s;
+    margin-left: -10px;
 }
 
 .Page6 div  :hover
@@ -147,4 +148,54 @@
     margin-left: 5px;
     font-size: 20px;
     
+}
+
+@media screen and (max-width : 1500px)
+{
+    .Page6
+    {
+        padding-left: 150px;
+    }
+}
+
+@media screen and (max-width : 1470px)
+{
+    .Page6
+    {
+        padding-left: 100px;
+    }
+}
+
+@media screen and (max-width : 1420px)
+{
+    .Page6
+    {
+        padding-left: 50px;
+    }
+}
+
+@media screen and (max-width : 1380px)
+{
+    .Page6 div > .clients
+    {
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width : 1330px)
+{
+    .Page6 div 
+    {
+        display: block;
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width : 519px)
+{
+    .Page6 h1
+    {
+        margin-left: -10px;
+        width: 400px;
+    }
 }

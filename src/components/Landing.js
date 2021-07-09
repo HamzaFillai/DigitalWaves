@@ -27,10 +27,11 @@ import message from "../icons/message.png"
 import bigdigital from "../icons/bigdigital.png"
 
 export default function Landing() {
+
     return (
         <div>
             <Navbar/>
-            <div style={{scrollBehavior:"smooth"}} className="Page1">
+            <div className="Page1">
                 <div id="acceuil" className="page">
                     <h1>Boostez votre entreprise au plus haut niveau.</h1>
                     <p>
@@ -117,7 +118,7 @@ export default function Landing() {
                             </div>
                         </div>
                     </div>
-                    <div style={{marginTop:"50px"}}>
+                    <div className="number135">
                         <div className="firstpart">
                             <div className="number">
                                 <p>01</p>
@@ -175,7 +176,7 @@ export default function Landing() {
                             <button>Voir plus <i class="fas fa-arrow-right"></i> </button>
                         </div>
                     </div>
-                    <div style={{marginLeft:"24.88px"}}>
+                    <div className="mod">
                         <div className="long">
                             <img src={groupe13}/>
                             <p>A tutorial about creating golden sphere using Figma</p>
@@ -196,8 +197,8 @@ export default function Landing() {
                 <div>
                     <div className="clients">
                         <i class="fas fa-quote-left"></i>
-                        <p>Livraison ultra rapide, moins de 5min après la commande.<br/>
-                        Meilleurs prix de tout le marché, continuez comme ça vous êtes les meilleurs.</p>
+                        <p><span>Livraison ultra rapide, moins de 5min après la commande.</span><br/>
+                        <span>Meilleurs prix de tout le marché, continuez comme ça vous êtes les meilleurs.</span></p>
                         <div className="personne">
                             <img src={personne}/>
                             <p>Mallau**<br/>
@@ -259,16 +260,22 @@ export default function Landing() {
                             <span>First name *</span><br/>
                             <input type="text" required/>
                         </p>
+                        <br/>
+                        <br/>
                         <p>
                             <span>Last name *</span><br/>
                             <input type="text" required/>
                         </p>
                     </div>
+                    <br/>
+                    <br/>
                     <div className="form">
                         <p>
                             <span>Email *</span><br/>
                             <input type="email" required/>
                         </p>
+                        <br/>
+                        <br/>
                         <p>
                             <span>Phone number </span><br/>
                             <input type="text"/>
@@ -289,7 +296,7 @@ export default function Landing() {
                     </p>
                 </form>
             </div>
-
+            
             <div className="Page9">
                 <footer>
                     <img src={bigdigital}/>
@@ -298,7 +305,7 @@ export default function Landing() {
                         Une agence de marketing numérique au Maroc spécialisée dans la communication et<br/> le marketing numériques via Internet, qui utilise la technologie pour améliorer les<br/> performances des entreprises.
                     </p>
                     <nav>
-                        <ul>
+                        <ul >
                             <li>
                                 <a href="#acceuil">Acceuil</a>
                                 <br/>
@@ -315,6 +322,7 @@ export default function Landing() {
                     </p>
                 </footer>
             </div>
+            
         </div>
     )
 }
