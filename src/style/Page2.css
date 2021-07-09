@@ -195,3 +195,22 @@
         width: 300px;
     }
 }
+
+@media screen and (max-width : 376px)
+{
+    .Page2
+    {
+        padding: 0;
+    }
+    .Page2 > .hello h1
+    {
+        width: 250px;
+        font-size: 35px;
+    }
+
+    .Page2 > .hello > .metier section
+    {
+        width: 250px;
+    }
+}
+
