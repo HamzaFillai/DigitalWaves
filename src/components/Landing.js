@@ -60,7 +60,7 @@ export default function Landing() {
                     <img src={github}/>
                 </p>
             </div>
- 
+  {*/} 
             <div className="Page2">
                 <div id="notrevaleur" className="hello">
                     <h6>OK</h6>
@@ -94,7 +94,7 @@ export default function Landing() {
                     </div>
                 </div>
             </div>
- {*/} 
+
             <div id="objectifs" className="Page3">
                 <div  className="objective1">
                     <div>
