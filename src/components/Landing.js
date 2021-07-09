@@ -30,7 +30,7 @@ export default function Landing() {
 
     return (
         <div>
-            {/*}
+            
             <Navbar/>
             <div className="Page1">
                 <div id="acceuil" className="page">
@@ -45,7 +45,7 @@ export default function Landing() {
                 </div>
                 <div className="images"></div>
             </div>
-  {*/} 
+  
             <div className="social">
                 <p >
                     <img src={google}/>
