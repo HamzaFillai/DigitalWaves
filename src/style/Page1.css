@@ -251,18 +251,21 @@ body
 
 @media screen and (max-width : 376px)
 {
-    .Page1 
+    .Page1 > .page h1
     {
-       display: none;
+        width: 300px;
+        font-size: 30px;
     }
 
     .Page1 > .page p
     {
-        display: none;
+        width: 300px;
+        font-size: 13px;
     }
 
     .Page1 >.page > .start 
     {
-        display: none;
+        width: 5px;
+        margin-left: 10px;
     }
 }
