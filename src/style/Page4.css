@@ -151,6 +151,40 @@
 {
     .Page4 > .why p
     {
-        width: 450px;
+        width: 400px;
+    }
+
+    .Page4 > .why h1
+    {
+        font-size: 40px;
+        width: 400px;
+    }
+}
+
+@media screen and (max-width : 415px)
+{
+    .Page4 > .why p
+    {
+        width: 300px;
+    } 
+
+    .Page4 > .why h1
+    {
+        font-size: 35px;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width : 361px)
+{
+    .Page4 > .why p
+    {
+        width: auto;
+    } 
+
+    .Page4 > .why h1
+    {
+        font-size: 35px;
+        width: 300px;
     }
 }

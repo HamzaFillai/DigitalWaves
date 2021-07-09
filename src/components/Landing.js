@@ -60,7 +60,7 @@ export default function Landing() {
                     <img src={github}/>
                 </p>
             </div>
-
+ 
             <div className="Page2">
                 <div id="notrevaleur" className="hello">
                     <h6>OK</h6>
@@ -150,7 +150,7 @@ export default function Landing() {
                     </div>
                 </div>
             </div>
-
+ {*/} 
             <div id="whydigitalwaves" className="Page4">
                 <div className="why"> 
                     <p><img src={eclipse2}/> <span>Pourquoi DigitalWaves ?</span></p>
@@ -160,7 +160,7 @@ export default function Landing() {
                 </div>
                 <div className="groupe2"></div>
             </div>
- {*/} 
+
             <div id="travail" className="Page5">
                 <p>Notre travail</p>
                 <h1>Les études de cas sont menées par notre équipe</h1>
@@ -191,7 +191,7 @@ export default function Landing() {
                     </div>
                 </div>
             </div>
-  
+ 
             <div className="Page6">
                 <p>Témoignage</p>
                 <h1>Qu'est-ce que nos clients disent de nous</h1>
@@ -240,7 +240,7 @@ export default function Landing() {
                     </div>
                 </div>
             </div>
-
+ 
             <div className="Page7">
                 <h2>Notre abonnement</h2>
                 <h1>Prêt à développer votre entreprise <br/> rendez-le spécial ?</h1>
@@ -297,7 +297,7 @@ export default function Landing() {
                     </p>
                 </form>
             </div>
-            
+           
             <div className="Page9">
                 <footer>
                     <img src={bigdigital}/>

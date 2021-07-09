@@ -119,14 +119,6 @@ body
     width: 167px;
 }
 
-@media screen and (max-width : 1536px)
-{
-    .Page1 > .images
-    {
-        width: 600px;
-    }
-}
-
 @media screen and (max-width : 1440px)
 {
     .Page1 > .images
@@ -163,6 +155,15 @@ body
     }
 }
 
+@media screen and (max-width : 720px)
+{
+    .Page1 > .page h1
+    {
+        font-size: 50px;
+        width: 550px;
+    }
+}
+
 @media screen and (max-width : 670px)
 {
     .Page1 > .page h1
@@ -181,5 +182,69 @@ body
     .Page1 >.page > .start
     {
         margin-top: 570px;
+    }
+}
+
+@media screen and (max-width : 582px)
+{
+    .social p img
+    {
+        width: 90px;
+    }
+
+    .Page1 > .page h1
+    {
+        font-size: 50px;
+        width: 400px;
+    }
+
+    .Page1 >.page > p
+    {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width : 415px)
+{
+    .social p img
+    {
+        display: none;
+    }
+
+    .Page1 > .page h1
+    {
+        font-size: 35px;
+    }
+
+    .Page1 > .page h1 , .Page1 > .page p
+    {
+        margin-left: -40px;
+        width: 280px;
+    }
+
+    .Page1 >.page > .start
+    {
+        margin-left: 20px;
+    }
+
+    .Page1 > .page p
+    {
+        margin-top: -10px;
+    }
+    .Page1 >.page > .start button
+    {
+        padding: 18.8296px;
+        width: 120.86px;
+    }
+
+    .Page1 >.page > .start p 
+    {
+        margin-top: 20px;
+       margin-left: -10px;
+    }
+
+    .Page1 >.page > .start p span
+    {
+        margin-left: 60px;
     }
 }

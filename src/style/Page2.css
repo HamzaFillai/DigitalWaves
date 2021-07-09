@@ -5,7 +5,7 @@
 .Page2
 {
     background-color: white;
-    
+    margin-top: -25px;
     padding-left: 139px;
 }
 
@@ -171,5 +171,27 @@
     .Page2 > .hello > .metier section
     {
         margin-left: 30px;
+    }
+}
+
+@media screen and (max-width : 570px)
+{
+    .Page2 > .hello h1
+    {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width : 415px)
+{
+    .Page2 > .hello h1
+    {
+        width: 300px;
+        font-size: 35px;
+    }
+
+    .Page2 > .hello > .metier section
+    {
+        width: 300px;
     }
 }

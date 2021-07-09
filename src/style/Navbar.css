@@ -204,11 +204,11 @@ html {
     .navbar > nav > ul
 	{
 		position: fixed;
-		width: 50%;
-		height: 50%;
+		width: 100%;
+		height: 100%;
 		background: #c5d9d2;
 		top: 30px;
-		right: -100%;
+		right: -120%;
 		text-align: center;
 		transition: all .5s;
 	}
@@ -221,7 +221,7 @@ html {
 
     .navbar > nav > ul a
     {
-        line-height: 40px;
+        line-height: 100px;
     }
 
 	#check:checked~ul
@@ -251,5 +251,13 @@ html {
     .navbar  nav  .checkbtn
     {
         margin-left: 400px;
+    }
+}
+
+@media screen and (max-width : 415px)
+{
+    .navbar  nav  .checkbtn
+    {
+        margin-left: 350px;
     }
 }
