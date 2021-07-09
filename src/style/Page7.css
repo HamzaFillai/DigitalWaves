@@ -139,3 +139,27 @@
         width: 120px;
     }
 }
+
+@media screen and (max-width : 415px)
+{
+    .Page7 h1
+    {
+        font-size: 40px;
+    }
+
+    .Page7 > .subscribe p input
+    {
+        font-size: 10px;
+        width: 100px;
+    }
+
+    .Page7 > .subscribe p img
+    {
+        width: 35px;
+    }
+
+    .Page7 > .subscribe button
+    {
+        width: 100px;
+    }
+}

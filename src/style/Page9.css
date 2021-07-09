@@ -107,3 +107,11 @@
         padding: 0px;
     }
 }
+
+@media screen and (max-width : 415px)
+{
+    .Page9 footer > nav 
+    {
+        display: none;
+    }
+}

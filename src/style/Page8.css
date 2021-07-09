@@ -221,3 +221,11 @@
         margin-bottom: 20px;
     }
 }
+
+@media screen and (max-width : 415px)
+{
+    .Page8 h1
+    {
+        font-size: 35px;
+    }
+}
