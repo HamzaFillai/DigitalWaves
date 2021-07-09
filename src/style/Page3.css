@@ -132,11 +132,38 @@
     {
         margin-top: 0;
     }
-}
 
-@media screen and (max-width : 567px)
-{
-    
+    #n1
+    {
+        margin-top: -440px;
+        margin-bottom: 100px;
+    }
+
+    #n2
+    {
+        margin-top: 200px;
+    }
+
+    #n2
+    {
+        margin-top: 250px;
+        margin-bottom: 90px;
+    }
+
+    #n4
+    {
+        margin-bottom: -60px;
+    }
+
+    #n5
+    {
+        margin-top: 60px;
+    }
+
+    .Page3 > .objective1 div h1
+    {
+        margin-bottom: -150px;
+    }
 }
 
 @media screen and (max-width : 567px)

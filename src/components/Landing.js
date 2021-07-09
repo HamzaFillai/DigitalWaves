@@ -100,8 +100,8 @@ export default function Landing() {
                     <div>
                         <p>Objective</p>
                         <h1>Spécifique, Mesurable, Atteignable, Réaliste</h1>
-                        <div className="firstpart">
-                            <div className="number">
+                        <div className="firstpart" id="n2">
+                            <div className="number" >
                                 <p>02</p>
                             </div>
                             <div className="text">
@@ -109,8 +109,8 @@ export default function Landing() {
                                 <p>Plateformes professionnelles (sites de communication - site web..), le bon contenu pour chaque objectif</p>
                             </div>
                         </div>
-                        <div className="firstpart">
-                            <div className="number">
+                        <div className="firstpart" id="n4">
+                            <div className="number" > 
                                 <p>04</p>
                             </div>
                             <div className="text">
@@ -120,8 +120,8 @@ export default function Landing() {
                         </div>
                     </div>
                     <div className="number135">
-                        <div className="firstpart">
-                            <div className="number">
+                        <div className="firstpart" id="n1">
+                            <div className="number" >
                                 <p>01</p>
                             </div>
                             <div className="text">
@@ -129,8 +129,8 @@ export default function Landing() {
                                 <p>Utiliser les ressources de l'entreprise pour atteindre les objectifs soulignés</p>
                             </div>
                         </div>
-                        <div className="firstpart">
-                            <div className="number">
+                        <div className="firstpart" id="n3">
+                            <div className="number" >
                                 <p>03</p>
                             </div>
                             <div className="text">
@@ -138,8 +138,8 @@ export default function Landing() {
                                 <p>Exécution de toutes les parties qui se chevauchent selon la stratégie  spécifiée</p>
                             </div>
                         </div>
-                        <div className="firstpart">
-                            <div className="number">
+                        <div className="firstpart" id="n5">
+                            <div className="number" >
                                 <p>05</p>
                             </div>
                             <div className="text">
