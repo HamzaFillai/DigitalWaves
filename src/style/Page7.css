@@ -163,3 +163,38 @@
         width: 100px;
     }
 }
+
+@media screen and (max-width : 321px)
+{
+    .Page7
+    {
+        margin-left: 20px;
+    }
+
+    .Page7 h1
+    {
+        font-size: 30px;
+
+    }
+
+    .Page7 > .subscribe
+    {
+        width: 350px;
+    }
+
+    .Page7 > .subscribe p input
+    {
+        font-size: 7px;
+        width: 100px;
+    }
+
+    .Page7 > .subscribe p img
+    {
+        width: 25px;
+    }
+
+    .Page7 > .subscribe button
+    {
+        width: 100px;
+    }
+}

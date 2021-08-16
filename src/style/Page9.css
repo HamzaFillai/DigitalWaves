@@ -115,3 +115,16 @@
         display: none;
     }
 }
+
+@media screen and (max-width : 321px)
+{
+    .Page9 footer p i
+    {
+        margin-top: 95px;
+    }
+
+    .Page9 footer
+    {
+        margin-left: 40px;
+    }
+}

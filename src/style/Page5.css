@@ -209,7 +209,7 @@
     }
 }
 
-@media screen and (max-width : 685px)
+@media screen and (max-width : 717px)
 {
     .Page5 h1
     {
@@ -217,7 +217,7 @@
     }
 }
 
-@media screen and (max-width : 530px)
+@media screen and (max-width : 570px)
 {
     .Page5 h1
     {
@@ -231,5 +231,19 @@
     {
         font-size: 40px;
         width: 300px;
+    }
+
+    .Page5 > .travail div > .short , .Page5 > .travail div > .long 
+    {
+        margin-left: -10px;
+    }
+}
+
+@media screen and (max-width : 321px)
+{
+    .Page5 > .travail div > .short , .Page5 > .travail div > .long 
+    {
+        width: 330px;
+        margin-left: 5px;
     }
 }

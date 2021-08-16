@@ -150,15 +150,8 @@
     
 }
 
-@media screen and (max-width : 1500px)
-{
-    .Page6
-    {
-        padding-left: 150px;
-    }
-}
 
-@media screen and (max-width : 1470px)
+@media screen and (max-width : 1511px)
 {
     .Page6
     {
@@ -166,7 +159,7 @@
     }
 }
 
-@media screen and (max-width : 1420px)
+@media screen and (max-width : 1440px)
 {
     .Page6
     {
@@ -174,7 +167,7 @@
     }
 }
 
-@media screen and (max-width : 1380px)
+@media screen and (max-width : 1390px)
 {
     .Page6 div > .clients
     {
@@ -182,21 +175,47 @@
     }
 }
 
-@media screen and (max-width : 1330px)
+@media screen and (max-width : 1357px)
+{
+    .Page6 div > .clients
+    {
+        padding: 6px;
+    }
+}
+
+@media screen and (max-width : 1303px)
+{
+    .Page6 div > .clients
+    {
+        padding: 3px;
+    }
+}
+
+@media screen and (max-width : 1286px)
 {
     .Page6 div 
     {
         display: block;
         margin-top: 100px;
     }
+
+    .Page6 div > .clients
+    {
+        margin-left: 100px;
+    }
 }
 
-@media screen and (max-width : 519px)
+@media screen and (max-width :600px)
 {
     .Page6 h1
     {
         margin-left: -10px;
         width: 400px;
+    }
+
+    .Page6 div > .clients
+    {
+        margin-left: 0px;
     }
 }
 
@@ -219,4 +238,12 @@
         margin-top: 50px;
     }
 
+}
+
+@media screen and (max-width : 321px)
+{
+    .Page6
+    {
+        width: 330px;
+    }
 }

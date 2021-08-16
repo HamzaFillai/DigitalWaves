@@ -138,17 +138,21 @@
     color: white;
 }
 
-@media screen and (max-width : 1160px)
+@media screen and (max-width : 1163px)
+{
+    .Page2 > .hello > .metier
+    {
+        margin-left: -150px;
+    }
+}
+
+@media screen and (max-width : 1014px)
 {
     .Page2 > .hello > .metier
     {
         display: block;
+        margin-left: 0;
     }
-
-   .Page2
-   {
-       margin-bottom: 300px;
-   }
 }
 
 @media screen and (max-width : 740px)
@@ -184,6 +188,12 @@
 
 @media screen and (max-width : 415px)
 {
+
+    .Page2 >.hello h2
+    {
+        margin-top: 0px;
+    }
+
     .Page2 > .hello h1
     {
         width: 300px;
@@ -196,7 +206,7 @@
     }
 }
 
-@media screen and (max-width : 376px)
+@media screen and (max-width : 390px)
 {
     .Page2
     {
@@ -211,6 +221,14 @@
     .Page2 > .hello > .metier section
     {
         width: 250px;
+        
     }
 }
 
+@media screen and (max-width : 321px)
+{
+    .Page2
+    {
+        width: 365px;
+    }
+}

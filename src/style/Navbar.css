@@ -7,13 +7,13 @@ html {
 .navbar
 {
     display: flex;
-   
+   justify-content: space-around;
 }
 
 .navbar > nav > ul
 {
     display: flex;
-    margin-left: 350px;
+    margin-left: 150px;
     margin-top: 38px;
     z-index: 7;
 }
@@ -94,7 +94,7 @@ html {
 .navbar > .call
 {
     display: flex;
-    margin-left: 200px;
+    /*margin-left: 200px;*/
     margin-top: 20px;
 }
 
@@ -134,40 +134,7 @@ html {
 {
 	display: none;
 }
-
-@media screen and (max-width : 1517px)
-{
-    .navbar > .call
-    {
-        margin-left: 140px;
-    }
-}
-
-@media screen and (max-width : 1457px)
-{
-    .navbar > .call
-    {
-        margin-left: 80px;
-    }
-}
-
-@media screen and (max-width : 1400px)
-{
-    .navbar > .call
-    {
-        margin-left: 40px;
-    }
-}
-
-@media screen and (max-width : 1360px)
-{
-    .navbar > .call
-    {
-        margin-left: 10px;
-    }
-}
-
-@media screen and (max-width : 1327px)
+@media screen and (max-width : 1300px)
 {
     .navbar > .call
     {
@@ -234,7 +201,7 @@ html {
 {
     .navbar  nav  .checkbtn
     {
-        margin-left: 700px;
+        margin-left: 600px;
     }
 }
 
@@ -258,12 +225,20 @@ html {
 {
     .navbar  nav  .checkbtn
     {
-        margin-left: 350px;
+        margin-left: 300px;
     }
 }
 
 @media screen and (max-width : 376px)
 {
+
+    .navbar > h1
+    {
+        position: relative;
+        margin-left: -50px;
+        margin-top: 0px;
+    }
+
     .navbar  nav  .checkbtn
     {
         margin-left: 300px;

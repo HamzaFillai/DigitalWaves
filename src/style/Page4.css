@@ -4,6 +4,8 @@
     padding-top: 127px;
     padding-left: 143.56px;
     padding-bottom: 330px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .Page4 > .why p span
@@ -51,72 +53,12 @@
 .Page4 > .groupe2
 {
     background-image: url("../images/groupe2.png");
-    position: absolute;
     width: 689.06px;
     height: 609.63px;
-    left: 698px;
-    top: 2620.27px;
+    
 }
 
-@media screen and (max-width : 1385px)
-{
-    .Page4
-    {
-        padding-left: 50px;
-    }
-
-    .Page4 > .groupe2
-    {
-        left: 608px;
-    }
-}
-
-@media screen and (max-width : 1290px)
-{
-    .Page4 > .groupe2
-    {
-        width: 689.06px;
-        height: 609.63px;
-        left: 558px;
-        top: 2620.27px;
-    }
-}
-
-@media screen and (max-width : 1240px)
-{
-    .Page4 > .groupe2
-    {
-        background-image: url("../images/woman.png");
-        width: 660.06px;
-        height: 600.63px;
-        left: 558px;
-        top: 2620.27px;
-    }
-}
-
-@media screen and (max-width : 1160px)
-{
-    .Page4 > .groupe2
-    {
-        width: 660.06px;
-        height: 600.63px;
-        left: 558px;
-        top: 3820.27px;
-    }
-}
-
-@media screen and (max-width : 1080px)
-{
-    .Page4 > .groupe2
-    {
-        width: 689.06px;
-        height: 600.63px;
-        left: 508px;
-        top: 3820.27px;
-    }
-}
-
-@media screen and (max-width : 1027px)
+@media screen and (max-width : 1127px)
 {
     .Page4 > .groupe2
     {
@@ -125,15 +67,15 @@
 
     .Page4
     {
-        padding-left: 143px;
+        padding-left: 260px;
     }
 }
 
-@media screen and (max-width : 720px)
+@media screen and (max-width : 880px)
 {
     .Page4 
     {
-        padding-left: 50px;
+        padding-left: 150px;
     }
 
     .Page4 > .why h1 , .Page4 > .why p
@@ -144,6 +86,14 @@
     .Page4 > .why p
     {
         margin-top: 70px;
+    }
+}
+
+@media screen and (max-width : 670px)
+{
+    .Page4
+    {
+        padding-left: 50px;
     }
 }
 
@@ -186,5 +136,13 @@
     {
         font-size: 35px;
         width: 300px;
+    }
+}
+
+@media screen and (max-width : 321px)
+{
+    .Page4
+    {
+        width: 315px;
     }
 }

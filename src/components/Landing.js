@@ -60,7 +60,7 @@ export default function Landing() {
                     <img src={github}/>
                 </p>
             </div>
-
+ 
             <div className="Page2">
                 <div id="notrevaleur" className="hello">
                     <h6>OK</h6>
@@ -191,7 +191,7 @@ export default function Landing() {
                     </div>
                 </div>
             </div>
- 
+
             <div className="Page6">
                 <p>Témoignage</p>
                 <h1>Qu'est-ce que nos clients disent de nous</h1>
@@ -207,7 +207,7 @@ export default function Landing() {
                             </p>
                         </div>
                         <p style={{marginTop : "-60px"}}>
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                         </p>
                     </div>
                     <div className="clients">
@@ -221,7 +221,7 @@ export default function Landing() {
                             </p>
                         </div>
                         <p style={{marginTop : "-60px"}}>
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                         </p>
                     </div>
                     <div className="clients">
@@ -235,12 +235,12 @@ export default function Landing() {
                             </p>
                         </div>
                         <p style={{marginTop : "-60px"}}>
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                         </p>
                     </div>
                 </div>
             </div>
- 
+
             <div className="Page7">
                 <h2>Notre abonnement</h2>
                 <h1>Prêt à développer votre entreprise <br/> rendez-le spécial ?</h1>
@@ -250,7 +250,7 @@ export default function Landing() {
                     <button>Subscribe</button>
                 </div>
             </div>
-
+  
             <div id="contact" className="Page8">
                 <h1>Contactez-nous</h1>
                 <p>Merci de déposez votre email ci-dessous pour recevoir les dernières nouvelles à notre sujet</p>
@@ -322,8 +322,7 @@ export default function Landing() {
                         <i class="fab fa-facebook-f"></i> <i class="fab fa-twitter"></i> <i class="fab fa-instagram"></i>
                     </p>
                 </footer>
-            </div>
-            
+            </div>   
         </div>
     )
 }

@@ -92,20 +92,19 @@ body
 .Page1
 {
     display: flex;
+    justify-content: space-between;
 }
 
 .Page1 > .images
 {
     background-image: url("../images/groupe.png");
-    position: absolute;
     width: 700px;
     height: 749px;
-    margin-left: 819.59px;
 }
 
 .social
 {
-    margin-top: 175px;
+    margin-top: 0px;
     display: flex;
     margin-left: 400px;
     justify-content: space-around;    
@@ -119,23 +118,15 @@ body
     width: 167px;
 }
 
-@media screen and (max-width : 1440px)
-{
-    .Page1 > .images
-    {
-        margin-left: 700px;
-    }
-}
-
-@media screen and (max-width : 1320px)
-{
-    .Page1 > .images
-    {
-        margin-left: 610px;
-    }
-}
-
 @media screen and (max-width : 1230px)
+{
+    .social
+    {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width : 870px)
 {
     .Page1 > .images
     {
@@ -144,9 +135,10 @@ body
 
     .social
     {
-        margin-left: 0;
+        margin-top: 100px;
     }
 }
+
 @media screen and (max-width : 770px)
 {
     .social p img
@@ -208,7 +200,13 @@ body
 {
     .social p img
     {
+        border-radius: 0px;
         display: none;
+    }
+
+    .social 
+    {
+        border-radius: 0px;
     }
 
     .Page1 > .page h1
@@ -267,5 +265,13 @@ body
     {
         width: 5px;
         margin-left: 10px;
+    }
+}
+
+@media screen and (max-width : 321px)
+{
+    .social 
+    {
+        width: 365px;
     }
 }
