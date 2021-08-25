@@ -5,20 +5,23 @@
 .Page2
 {
     background-color: white;
-    margin-top: -25px;
+    margin-top: 0px;
     padding-left: 139px;
 }
 
-.Page2 > .hello h6
+.Page2 > .phonenumber
 {
-    color: white;
+    margin-top: -20px;
+    padding-top : 90px;
+    text-align: right;
+    padding-right: 28px;
 }
 
 .Page2 >.hello h2
 {
     position: static;
     height: 21.79px;
-    margin-top: 190px;
+    margin-top: 130px;
     
     font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
@@ -178,6 +181,22 @@
     }
 }
 
+@media screen and (max-width : 770px)
+{
+    .Page2 > .phonenumber p img
+    {
+        width: 70px;
+    }
+}
+
+@media screen and (max-width : 582px)
+{
+    .Page2 > .phonenumber p img
+    {
+        width: 50px;
+    }
+}
+
 @media screen and (max-width : 570px)
 {
     .Page2 > .hello h1
@@ -204,6 +223,11 @@
     {
         width: 300px;
     }
+
+    .Page2 > .phonenumber p img
+    {
+        display: none;
+    }
 }
 
 @media screen and (max-width : 390px)
@@ -229,6 +253,6 @@
 {
     .Page2
     {
-        width: 365px;
+        width: 380px;
     }
 }

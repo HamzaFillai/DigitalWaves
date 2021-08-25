@@ -64,6 +64,11 @@ body
     cursor: pointer;
 }
 
+.Page1 >.page > .start a
+{
+    text-decoration: none;
+}
+
 .Page1 >.page > .start p img
 {
     display: inline-block;
@@ -105,6 +110,7 @@ body
 .social
 {
     margin-top: 0px;
+    height: 50px;
     display: flex;
     margin-left: 400px;
     justify-content: space-around;    
@@ -272,6 +278,6 @@ body
 {
     .social 
     {
-        width: 365px;
+        width: 380px;
     }
 }

@@ -25,6 +25,7 @@ import groupe14 from "../images/groupe14.png"
 import personne from "../images/personne.png"
 import message from "../icons/message.png"
 import bigdigital from "../icons/bigdigital.png"
+import phonenumber from "../images/phonenumber.png"
 
 export default function Landing() {
 
@@ -39,7 +40,7 @@ export default function Landing() {
                     Une agence de marketing numérique au Maroc spécialisée dans la communication et le marketing numériques via Internet, qui utilise la technologie pour améliorer les performances des entreprises.
                     </p>
                     <div className="start">
-                        <button>Commencez</button>
+                        <a href="#contact"><button>Commencez</button></a>
                         <p><img src = {setting}/> <span>Comment ca marche ?</span></p>
                     </div>
                 </div>
@@ -60,10 +61,15 @@ export default function Landing() {
                     <img src={github}/>
                 </p>
             </div>
+
  
             <div className="Page2">
+                <div className="phonenumber">
+                    <p>
+                        <img src={phonenumber}/>
+                    </p>
+                </div>
                 <div id="notrevaleur" className="hello">
-                    <h6>OK</h6>
                     <h2 >Notre valeur</h2>
                     <h1>Nous apportons des idées de métiers en ligne</h1>
                     <div className="metier">
@@ -319,7 +325,7 @@ export default function Landing() {
                         </ul>
                     </nav>
                     <p>
-                        <i class="fab fa-facebook-f"></i> <i class="fab fa-twitter"></i> <i class="fab fa-instagram"></i>
+                        <i class="fab fa-facebook-f"></i> <i class="fab fa-twitter"></i> <i class="fab fa-instagram"></i><i class="far fa-envelope"></i>
                     </p>
                 </footer>
             </div>   
