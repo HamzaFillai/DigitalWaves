@@ -94,6 +94,17 @@
     margin-top: 50px;
 }
 
+.border
+{
+    background: #5FBD85;
+    border-radius: 24px;
+    width: 35px;
+    height: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 1;
+}
+
 @media screen and (max-width : 700px) {
     .Page9 footer > nav > ul
     {

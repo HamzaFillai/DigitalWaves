@@ -29,6 +29,102 @@ import phonenumber from "../images/phonenumber.png"
 
 export default function Landing() {
 
+    const acceuil = ()=>{
+        document.getElementById("acceui").className="border";
+        document.getElementById("notrevaleu").className=""
+        document.getElementById("objectif").className=""
+        document.getElementById("whydigitalwave").className=""
+        document.getElementById("travai").className=""
+        document.getElementById("contac").className=""
+
+        document.getElementById("acceu").className="border";
+        document.getElementById("notrevale").className=""
+        document.getElementById("objecti").className=""
+        document.getElementById("whydigitalwav").className=""
+        document.getElementById("trava").className=""
+        document.getElementById("conta").className=""
+    };
+
+    const notrevaleur = ()=>{
+        document.getElementById("acceui").className="";
+        document.getElementById("notrevaleu").className="border"
+        document.getElementById("objectif").className=""
+        document.getElementById("whydigitalwave").className=""
+        document.getElementById("travai").className=""
+        document.getElementById("contac").className=""
+
+        document.getElementById("acceu").className="";
+        document.getElementById("notrevale").className="border"
+        document.getElementById("objecti").className=""
+        document.getElementById("whydigitalwav").className=""
+        document.getElementById("trava").className=""
+        document.getElementById("conta").className=""
+    };
+
+    const objectifs = ()=>{
+        document.getElementById("acceui").className="";
+        document.getElementById("notrevaleu").className=""
+        document.getElementById("objectif").className="border"
+        document.getElementById("whydigitalwave").className=""
+        document.getElementById("travai").className=""
+        document.getElementById("contac").className=""
+
+        document.getElementById("acceu").className="";
+        document.getElementById("notrevale").className=""
+        document.getElementById("objecti").className="border"
+        document.getElementById("whydigitalwav").className=""
+        document.getElementById("trava").className=""
+        document.getElementById("conta").className=""
+    };
+
+    const whydigitalwaves = ()=>{
+        document.getElementById("acceui").className="";
+        document.getElementById("notrevaleu").className=""
+        document.getElementById("objectif").className=""
+        document.getElementById("whydigitalwave").className="border"
+        document.getElementById("travai").className=""
+        document.getElementById("contac").className=""
+
+        document.getElementById("acceu").className="";
+        document.getElementById("notrevale").className=""
+        document.getElementById("objecti").className=""
+        document.getElementById("whydigitalwav").className="border"
+        document.getElementById("trava").className=""
+        document.getElementById("conta").className=""
+    };
+
+    const travail = ()=>{
+        document.getElementById("acceui").className="";
+        document.getElementById("notrevaleu").className=""
+        document.getElementById("objectif").className=""
+        document.getElementById("whydigitalwave").className=""
+        document.getElementById("travai").className="border"
+        document.getElementById("contac").className=""
+
+        document.getElementById("acceu").className="";
+        document.getElementById("notrevale").className=""
+        document.getElementById("objecti").className=""
+        document.getElementById("whydigitalwav").className=""
+        document.getElementById("trava").className="border"
+        document.getElementById("conta").className=""
+    };
+
+    const contact = ()=>{
+        document.getElementById("acceui").className="";
+        document.getElementById("notrevaleu").className=""
+        document.getElementById("objectif").className=""
+        document.getElementById("whydigitalwave").className=""
+        document.getElementById("travai").className=""
+        document.getElementById("contac").className="border"
+
+        document.getElementById("acceu").className="";
+        document.getElementById("notrevale").className=""
+        document.getElementById("objecti").className=""
+        document.getElementById("whydigitalwav").className=""
+        document.getElementById("trava").className=""
+        document.getElementById("conta").className="border"
+    };
+
     return (
         <div>
             
@@ -204,8 +300,8 @@ export default function Landing() {
                 <div>
                     <div className="clients">
                         <i class="fas fa-quote-left"></i>
-                        <p><span>Livraison ultra rapide, moins de 5min après la commande.</span><br/>
-                        <span>Meilleurs prix de tout le marché, continuez comme ça vous êtes les meilleurs.</span></p>
+                        <p>{/*Livraison ultra rapide, moins de 5min après la commande.<br/>
+                        Meilleurs prix de tout le marché, continuez comme ça vous êtes les meilleurs.*/}</p>
                         <div className="personne">
                             <img src={personne}/>
                             <p>Mallau**<br/>
@@ -213,13 +309,13 @@ export default function Landing() {
                             </p>
                         </div>
                         <p style={{marginTop : "-60px"}}>
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
                         </p>
                     </div>
                     <div className="clients">
                         <i class="fas fa-quote-left"></i>
-                        <p>Livraison ultra rapide, moins de 5min après la commande.<br/>
-                        Meilleurs prix de tout le marché, continuez comme ça vous êtes les meilleurs.</p>
+                        <p>{/*Livraison ultra rapide, moins de 5min après la commande.<br/>
+                        Meilleurs prix de tout le marché, continuez comme ça vous êtes les meilleurs.*/}</p>
                         <div className="personne">
                             <img src={personne}/>
                             <p>Mallau**<br/>
@@ -227,13 +323,13 @@ export default function Landing() {
                             </p>
                         </div>
                         <p style={{marginTop : "-60px"}}>
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
                         </p>
                     </div>
                     <div className="clients">
                         <i class="fas fa-quote-left"></i>
-                        <p>Livraison ultra rapide, moins de 5min après la commande.<br/>
-                        Meilleurs prix de tout le marché, continuez comme ça vous êtes les meilleurs.</p>
+                        <p>{/*Livraison ultra rapide, moins de 5min après la commande.<br/>
+                        Meilleurs prix de tout le marché, continuez comme ça vous êtes les meilleurs.*/}</p>
                         <div className="personne">
                             <img src={personne}/>
                             <p>Mallau**<br/>
@@ -241,7 +337,7 @@ export default function Landing() {
                             </p>
                         </div>
                         <p style={{marginTop : "-60px"}}>
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
                         </p>
                     </div>
                 </div>
@@ -312,16 +408,37 @@ export default function Landing() {
                         Une agence de marketing numérique au Maroc spécialisée dans la communication et<br/> le marketing numériques via Internet, qui utilise la technologie pour améliorer les<br/> performances des entreprises.
                     </p>
                     <nav>
-                        <ul >
+                        <ul>
                             <li>
-                                <a href="#acceuil">Acceuil</a>
+                                <a onClick={()=>acceuil()} href="#acceuil">Acceuil</a>
                                 <br/>
-                                <div className="border"></div></li>
-                            <li><a href="#notrevaleur">Notre valeur</a></li>
-                            <li><a href="#objectifs">Objectifs</a></li>
-                            <li><a href="#whydigitalwaves">Pourquoi DigitalWaves ?</a></li>
-                            <li><a href="#travail">Notre travaille</a></li>
-                            <li><a href="#contact">Contact</a></li>
+                                <div id="acceu" className=""></div>  
+                            </li>
+                            <li>
+                                <a onClick={()=>notrevaleur()} href="#notrevaleur">Notre valeur</a>
+                                <br/>
+                                <div id="notrevale" className=""></div>
+                            </li>
+                            <li>
+                                <a onClick={()=>objectifs()} href="#objectifs">Objectifs</a>
+                                <br/>
+                                <div id="objecti" className=""></div>
+                            </li>
+                            <li>
+                                <a onClick={()=>whydigitalwaves()} href="#whydigitalwaves">Pourquoi DigitalWaves ?</a>
+                                <br/>
+                                <div id="whydigitalwav" className=""></div>
+                            </li>
+                            <li>
+                                <a onClick={()=>travail()} href="#travail">Notre travaille</a>
+                                <br/>
+                                <div id="trava" className=""></div>
+                            </li>
+                            <li>
+                                <a onClick={()=>contact()} href="#contact">Contact</a>
+                                <br/>
+                                <div id="conta" className=""></div>
+                            </li>
                         </ul>
                     </nav>
                     <p>

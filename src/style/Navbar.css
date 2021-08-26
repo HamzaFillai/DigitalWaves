@@ -37,7 +37,7 @@ html {
     position: relative;
 }
 
-.navbar > nav > ul li .border
+.border
 {
     background: #5FBD85;
     border-radius: 24px;
