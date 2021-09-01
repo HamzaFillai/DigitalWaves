@@ -125,6 +125,30 @@ export default function Landing() {
         document.getElementById("conta").className="border"
     };
 
+    const openm = ()=>{
+        document.querySelector(".marketing").classList.add("bg-ac");
+    }
+
+    const closem = ()=>{
+        document.querySelector(".marketing").classList.remove("bg-ac");
+    }
+
+    const opend = ()=>{
+        document.querySelector(".developpement").classList.add("bg-ac");
+    }
+
+    const closed = ()=>{
+        document.querySelector(".developpement").classList.remove("bg-ac");
+    }
+
+    const openg = ()=>{
+        document.querySelector(".design").classList.add("bg-ac");
+    }
+
+    const closeg = ()=>{
+        document.querySelector(".design").classList.remove("bg-ac");
+    }
+
     return (
         <div>
             
@@ -174,25 +198,55 @@ export default function Landing() {
                                 <img src={marketing}/>
                             </p>
                             <h3>Marketing digital</h3>
-                            <p>When users interact with your product, it should tell them an amazing story, driving your business forward. I can help you create that story.</p>
-                            <button>Voir plus <i class="fas fa-arrow-right"></i> </button>
+                            {/*<p>When users interact with your product, it should tell them an amazing story, driving your business forward. I can help you create that story.</p>*/}
+                            <button onClick={()=>openm()}>Voir plus <i class="fas fa-arrow-right"></i> </button>
                         </section>
                         <section>
                             <p>
                                 <img src={developpement}/>
                             </p>
                             <h3>Developpement</h3>
-                            <p>When users interact with your product, it should tell them an amazing story, driving your business forward. I can help you create that story.</p>
-                            <button>Voir plus <i class="fas fa-arrow-right"></i> </button>
+                            {/*<p>When users interact with your product, it should tell them an amazing story, driving your business forward. I can help you create that story.</p>*/}
+                            <button onClick={()=>opend()}>Voir plus <i class="fas fa-arrow-right"></i> </button>
                         </section>
                         <section>
                             <p>
                                 <img src={design}/>
                             </p>
                             <h3>Graphic design</h3>
-                            <p>When users interact with your product, it should tell them an amazing story, driving your business forward. I can help you create that story.</p>
-                            <button>Voir plus <i class="fas fa-arrow-right"></i> </button>
+                            {/*<p>When users interact with your product, it should tell them an amazing story, driving your business forward. I can help you create that story.</p>*/}
+                            <button onClick={()=>openg()} id="open">Voir plus <i class="fas fa-arrow-right"></i> </button>
                         </section>
+                    </div>
+                </div>
+                <div className="marketing">
+                    <div className="marketing1">
+                        <p>
+                            <img src={marketing}/>
+                        </p>
+                        <h3>Marketing digital</h3>
+                        <p>When users interact with your product, it should tell them an amazing story, driving your business forward. I can help you create that story.</p>
+                        <span onClick={()=>closem()} style={{color: "black", width: "20px"}} class="close">X</span>
+                    </div>
+                </div>
+                <div className="developpement">
+                    <div className="developpement1">
+                        <p>
+                            <img src={developpement}/>
+                        </p>
+                        <h3>Developpement</h3>
+                        <p>When users interact with your product, it should tell them an amazing story, driving your business forward. I can help you create that story.</p>
+                        <span onClick={()=>closed()} style={{color: "black", width: "20px"}} class="close">X</span>
+                    </div>
+                </div>
+                <div className="design">
+                    <div className="design1">
+                        <p>
+                            <img src={design}/>
+                        </p>
+                        <h3>Graphic design</h3>
+                        <p>When users interact with your product, it should tell them an amazing story, driving your business forward. I can help you create that story.</p>
+                        <span onClick={()=>closeg()} style={{color: "black", width: "20px"}} class="close">X</span>
                     </div>
                 </div>
             </div>
