@@ -102,7 +102,7 @@ export default function Navbar() {
     };
     
     return (
-        <div className="navbar">
+        <div id="navnav" className="navbar">
             <h1><img src={eclipse}/> <span>DigitalWaves</span></h1>
             <nav>
                 <input type="checkbox" id="check" />

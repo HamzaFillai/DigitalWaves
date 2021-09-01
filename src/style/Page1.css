@@ -132,6 +132,14 @@ body
     }
 }
 
+@media screen and (max-width : 1001px)
+{
+    .Page1 >.page > .start
+    {
+        margin-top: 600px;
+    }
+}
+
 @media screen and (max-width : 870px)
 {
     .Page1 > .images
@@ -152,20 +160,11 @@ body
         width: 107px;
     }
 }
-
-@media screen and (max-width : 720px)
-{
-    .Page1 > .page h1
-    {
-        font-size: 50px;
-        width: 550px;
-    }
-}
-
 @media screen and (max-width : 670px)
 {
     .Page1 > .page h1
     {
+        font-size: 50px;
         width: 500px;
         margin-left: -10px;
     }
@@ -179,7 +178,7 @@ body
 
     .Page1 >.page > .start
     {
-        margin-top: 570px;
+        margin-top: 700px;
     }
 }
 

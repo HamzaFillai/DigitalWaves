@@ -152,7 +152,15 @@ html {
 
 @media screen and (max-width : 1000px)
 {
-
+    .navbar
+    {
+        overflow: hidden;
+        background-color: #D1E4DD;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 7;
+    }
     .navbar > nav > ul li .border
     {
         display: none;
