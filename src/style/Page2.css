@@ -297,10 +297,18 @@
     }
 }
 
-@media screen and (max-width : 321px)
+@media screen and (max-width : 361px)
 {
     .Page2
     {
         width: 380px;
+    }
+}
+
+@media screen and (max-width : 321px)
+{
+    .Page2
+    {
+        width: 386px;
     }
 }

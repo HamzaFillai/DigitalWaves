@@ -203,6 +203,11 @@
         display: block;
     }
 
+    .Page5 > .travail div > .short  , .Page5 > .travail div > .long 
+    {
+        width: 98%;
+    }
+
     .mod
     {
         margin-left: 0px;
@@ -214,6 +219,7 @@
     .Page5 h1
     {
         width: 500px;
+        margin-bottom: 100px;
     }
 }
 
@@ -236,6 +242,16 @@
     .Page5 > .travail div > .short , .Page5 > .travail div > .long 
     {
         margin-left: -10px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width : 361px)
+{
+    .Page5 > .travail div > .short , .Page5 > .travail div > .long 
+    {
+        width: 335px;
+        margin-left: 5px;
     }
 }
 
@@ -243,7 +259,7 @@
 {
     .Page5 > .travail div > .short , .Page5 > .travail div > .long 
     {
-        width: 330px;
-        margin-left: 5px;
+        width: 335px;
+        margin-left: 10px;
     }
 }

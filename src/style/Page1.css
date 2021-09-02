@@ -273,10 +273,18 @@ body
     }
 }
 
+@media screen and (max-width : 361px)
+{
+    .social
+    {
+        width: 380px;
+    }
+}
+
 @media screen and (max-width : 321px)
 {
     .social 
     {
-        width: 380px;
+        width: 386px;
     }
 }
